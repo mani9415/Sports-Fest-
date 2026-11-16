@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Sports&Games</title>
+</head>
+<header>
+    <h1>Registeration For Sports Fest</h1>
+    <nav>
+        <a href="./home.html">Home page</a>
+    </nav>
+</header>
+<br><br>
+<body>
+     <main>
+        <section>
+            <form action="/register">
+    <label for="Name">Enter your name</label>
+    <input type="text" name="name" id="name" required minlength="2" maxlength="12">
+    <br><br>
+    <label for="E-mail">Enter your email-address</label>
+    <input type="text" name="email" id="email">
+    <br><br>
+    <label for="number">Enter your Enrollment number</label>
+    <input type="text" name="number" id="number" required minlength="9" maxlength="10">
+    <br><br>
+    <label for="Sports&Games">Choose your sports or games</label>
+    <select name="Sports&games" id="Sports and Games">
+    <option value="Carrom">Carrom</option>
+    <option value="Chess">Chess</option>
+    <option value="Cricket">Cricket</option>
+    <option value="Badminton">Badminton</option>
+    <option value="Table-Tennis">Table-Tennis</option></select>
+    <br>
+<label for="checkbox1">Do you agree all the conditions?</label>
+    <input type="checkbox" name="tnc" id="checkbox1" required>
+    <br><br>
+    <label for="alumni">Alumni:</label>
+    <input type="radio" name="attendee_type" id="alumni" value="alumni">
+    <label for="student">Student:</label>
+    <input type="radio" name="attendee_type" id="student" value="student">
+    <br>
+<button>Register for sports fest</button>
+</form>
+     </main>
+        </section>
+
+    
+</body>
+</html>
